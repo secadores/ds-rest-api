@@ -25,7 +25,13 @@ Make sure to have Python 3.6+ installed and clone the repository.
 
 ## How to use it
 
-Make a post request with the file to be scanned as a value to the key "file" in its body.
+Make a post request with the file to be scanned as a value to the key "file" in its body. The application, by default, listens at the port '5000'.
+
+### Example
+
+`
+curl -X POST http://$SERVER:5000/ -H 'content-type: multipart/form-data'   -F 'file=@/path/to/file
+`
 
 ## Possible responses
 
