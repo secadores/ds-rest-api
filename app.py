@@ -34,7 +34,6 @@ def noFile():
 def somethingWrong():
     print('something went wrong...')
     return {
-        'data':'',
         'message':'Something went wrong with your request.',
         'status':'error'
     }
